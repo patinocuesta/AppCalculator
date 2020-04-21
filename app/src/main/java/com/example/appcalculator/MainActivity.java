@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickbuttonDEL(View view) {
+        //TODO: event + func button del
     }
 
     public void clickbuttonOperation(View view) {
@@ -159,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
         edt2.setText(String.format("%s %s %s %s", input1, currentOp, input2, "="));
         display = String.valueOf(resultat);
         edt1.setText(display);
+        //TODO tttment post calcul
     }
 
 }
